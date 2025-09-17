@@ -9,7 +9,7 @@ WORKDIR /app
 COPY ./app
 
 # Expose port 8501 for this container
-EXPOSE port 8501
+EXPOSE 8501
 
 # Command to run when the container starts
 CMD ["streamlit", "run", "app.py"]
