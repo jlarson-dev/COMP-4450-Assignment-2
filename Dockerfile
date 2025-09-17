@@ -6,7 +6,7 @@ FROM python:3.9-slim
 WORKDIR /app
 
 # Copy the requirements file into the container at /app
-COPY ./app
+COPY . /app
 
 # Expose port 8501 for this container
 EXPOSE 8501
